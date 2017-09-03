@@ -1,5 +1,5 @@
 //
-//  LoginViewController.swift
+//  MisContactosViewController.swift
 //  Ojo-Metropolitano-1.0
 //
 //  Created by Octavio Ernesto Romo Rodríguez on /39/17.
@@ -8,7 +8,7 @@
 
 import UIKit
 
-class LoginViewController: UIViewController {
+class MisContactosViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -31,6 +31,5 @@ class LoginViewController: UIViewController {
         // Pass the selected object to the new view controller.
     }
     */
-    
 
 }

@@ -1,5 +1,5 @@
 //
-//  LoginViewController.swift
+//  InicioViewController.swift
 //  Ojo-Metropolitano-1.0
 //
 //  Created by Octavio Ernesto Romo Rodríguez on /39/17.
@@ -8,7 +8,7 @@
 
 import UIKit
 
-class LoginViewController: UIViewController {
+class InicioViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -20,17 +20,14 @@ class LoginViewController: UIViewController {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
     }
-    
 
     /*
-    // MARK: - Navigation
-
-    // In a storyboard-based application, you will often want to do a little preparation before navigation
-    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        // Get the new view controller using segue.destinationViewController.
-        // Pass the selected object to the new view controller.
+    //++++++++++++++++++++++++ Cambia color de tab bar ++++++++++++++++++++++++
+    override func viewWillAppear(_ animated: Bool) {
+        super.viewWillAppear(animated)
+        self.tabBarController?.tabBar.tintColor = UIColor.red
     }
+    //------------------------ Cambia color de tab bar ------------------------
     */
-    
-
+ 
 }

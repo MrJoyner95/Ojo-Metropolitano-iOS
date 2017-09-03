@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11762" systemVersion="15G1217" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="AHh-4S-xSv">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11762" systemVersion="15G1611" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="AHh-4S-xSv">
     <device id="retina4_7" orientation="portrait">
         <adaptation id="fullscreen"/>
     </device>
@@ -12,7 +12,7 @@
         <!--Mi Cuenta-->
         <scene sceneID="hNz-n2-bh7">
             <objects>
-                <viewController id="9pv-A4-QxB" customClass="FirstViewController" customModule="Ojo_Metropolitano_1_0" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="9pv-A4-QxB" customClass="MiCuentaViewController" customModule="Ojo_Metropolitano_1_0" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="Ia1-K6-d13"/>
                         <viewControllerLayoutGuide type="bottom" id="4ug-Mw-9AY"/>
@@ -28,22 +28,14 @@
                                 <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Loaded by FirstViewController" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="A5M-7J-77L">
-                                <rect key="frame" x="89.5" y="362" width="194.5" height="17"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
                             <constraint firstAttribute="centerX" secondItem="KQZ-1w-vlD" secondAttribute="centerX" id="6BV-lF-sBN"/>
-                            <constraint firstItem="A5M-7J-77L" firstAttribute="top" secondItem="KQZ-1w-vlD" secondAttribute="bottom" constant="8" symbolic="YES" id="cfb-er-3JN"/>
-                            <constraint firstItem="A5M-7J-77L" firstAttribute="centerX" secondItem="KQZ-1w-vlD" secondAttribute="centerX" id="e1l-AV-tCB"/>
                             <constraint firstAttribute="centerY" secondItem="KQZ-1w-vlD" secondAttribute="centerY" id="exm-UA-ej4"/>
                         </constraints>
                     </view>
-                    <tabBarItem key="tabBarItem" title="Mi Cuenta" image="first" id="acW-dT-cKf"/>
+                    <tabBarItem key="tabBarItem" title="Mi Cuenta" image="icono-mi-cuenta" id="acW-dT-cKf"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="W5J-7L-Pyd" sceneMemberID="firstResponder"/>
             </objects>
@@ -52,7 +44,7 @@
         <!--Mis Contactos-->
         <scene sceneID="wg7-f3-ORb">
             <objects>
-                <viewController id="8rJ-Kc-sve" customClass="SecondViewController" customModule="Ojo_Metropolitano_1_0" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="8rJ-Kc-sve" customClass="MisContactosViewController" customModule="Ojo_Metropolitano_1_0" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="L7p-HK-0SC"/>
                         <viewControllerLayoutGuide type="bottom" id="Djb-ko-YwX"/>
@@ -68,22 +60,14 @@
                                 <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Loaded by SecondViewController" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="NDk-cv-Gan">
-                                <rect key="frame" x="80" y="362" width="215" height="17"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
-                            <constraint firstItem="NDk-cv-Gan" firstAttribute="top" secondItem="zEq-FU-wV5" secondAttribute="bottom" constant="8" symbolic="YES" id="Day-4N-Vmt"/>
-                            <constraint firstItem="NDk-cv-Gan" firstAttribute="centerX" secondItem="zEq-FU-wV5" secondAttribute="centerX" id="JgO-Fn-dHn"/>
                             <constraint firstAttribute="centerX" secondItem="zEq-FU-wV5" secondAttribute="centerX" id="qqM-NS-xev"/>
                             <constraint firstAttribute="centerY" secondItem="zEq-FU-wV5" secondAttribute="centerY" id="qzY-Ky-pLD"/>
                         </constraints>
                     </view>
-                    <tabBarItem key="tabBarItem" title="Mis Contactos" image="second" id="cPa-gy-q4n"/>
+                    <tabBarItem key="tabBarItem" title="Mis Contactos" image="icono-mis-contactos" id="cPa-gy-q4n"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="4Nw-L8-lE0" sceneMemberID="firstResponder"/>
             </objects>
@@ -92,7 +76,7 @@
         <!--Inicio-->
         <scene sceneID="wMz-Sf-fE8">
             <objects>
-                <viewController id="M1g-hQ-mpo" sceneMemberID="viewController">
+                <viewController id="M1g-hQ-mpo" customClass="InicioViewController" customModule="Ojo_Metropolitano_1_0" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="G0r-aw-zza"/>
                         <viewControllerLayoutGuide type="bottom" id="kPk-Uo-nE0"/>
@@ -112,7 +96,7 @@
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
-                    <tabBarItem key="tabBarItem" title="Inicio" image="first" id="DOf-hO-LSI"/>
+                    <tabBarItem key="tabBarItem" title="Inicio" image="icono-inicio" id="DOf-hO-LSI"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="sow-oZ-Zxc" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
@@ -121,7 +105,7 @@
         <!--Mis Lugares-->
         <scene sceneID="dQT-fG-3bb">
             <objects>
-                <viewController id="F7M-pD-88S" sceneMemberID="viewController">
+                <viewController id="F7M-pD-88S" customClass="MisLugaresViewController" customModule="Ojo_Metropolitano_1_0" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="y72-DX-2FO"/>
                         <viewControllerLayoutGuide type="bottom" id="gpe-bG-Onb"/>
@@ -141,7 +125,7 @@
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
-                    <tabBarItem key="tabBarItem" title="Mis Lugares" image="second" id="kog-wH-H2W"/>
+                    <tabBarItem key="tabBarItem" title="Mis Lugares" image="icono-mis-lugares" id="kog-wH-H2W"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="tSZ-8X-7rk" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
@@ -150,7 +134,7 @@
         <!--Agente Policiaco-->
         <scene sceneID="ohZ-Hs-nXS">
             <objects>
-                <viewController id="RxF-9R-I1B" sceneMemberID="viewController">
+                <viewController id="RxF-9R-I1B" customClass="AgentePoliciacoViewController" customModule="Ojo_Metropolitano_1_0" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="0ZG-Nf-uJS"/>
                         <viewControllerLayoutGuide type="bottom" id="b47-9y-ufY"/>
@@ -170,7 +154,7 @@
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
-                    <tabBarItem key="tabBarItem" title="Agente Policiaco" image="first" id="1k7-pT-nwb"/>
+                    <tabBarItem key="tabBarItem" title="Agente Policiaco" image="icono-agente-policiaco" id="1k7-pT-nwb"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="8Zp-rv-ffd" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
@@ -236,7 +220,10 @@
         </scene>
     </scenes>
     <resources>
-        <image name="first" width="30" height="30"/>
-        <image name="second" width="30" height="30"/>
+        <image name="icono-agente-policiaco" width="25" height="25"/>
+        <image name="icono-inicio" width="25" height="25"/>
+        <image name="icono-mi-cuenta" width="25" height="25"/>
+        <image name="icono-mis-contactos" width="25" height="25"/>
+        <image name="icono-mis-lugares" width="25" height="25"/>
     </resources>
 </document>
