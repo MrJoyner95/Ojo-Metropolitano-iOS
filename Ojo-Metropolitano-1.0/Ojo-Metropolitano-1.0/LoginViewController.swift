@@ -10,16 +10,31 @@ import UIKit
 
 class LoginViewController: UIViewController {
 
+    
+    @IBOutlet weak var textField_NombreUsuario: UITextField!
+    @IBOutlet weak var textField_Contra: UITextField!
+    @IBOutlet weak var button_IniciarSesion: UIButton!
+    @IBOutlet weak var button_Registrarse: UIButton!
+    
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-
-        // Do any additional setup after loading the view.
+        
+        //++++++++++++++++ Arreglos esteticos botones y textFields ++++++++++++++++
+        textField_NombreUsuario.layer.cornerRadius = 15;
+        textField_Contra.layer.cornerRadius = 15;
+        button_IniciarSesion.layer.cornerRadius = 20;
+        button_Registrarse.layer.cornerRadius = 20;
+        
     }
 
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
     }
+
+    
+    
     
 
     /*
