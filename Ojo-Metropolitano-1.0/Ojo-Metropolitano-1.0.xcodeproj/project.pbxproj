@@ -19,6 +19,8 @@
 		4CDC04F31F5BC9E00066BED7 /* Ojo_Metropolitano_1_0Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CDC04F21F5BC9E00066BED7 /* Ojo_Metropolitano_1_0Tests.swift */; };
 		4CDC04FE1F5BC9E00066BED7 /* Ojo_Metropolitano_1_0UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CDC04FD1F5BC9E00066BED7 /* Ojo_Metropolitano_1_0UITests.swift */; };
 		4CDC050C1F5BCC8A0066BED7 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CDC050B1F5BCC8A0066BED7 /* LoginViewController.swift */; };
+		520570401F5E1E37003B9A7E /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5205703F1F5E1E37003B9A7E /* CoreLocation.framework */; };
+		521320441F5D08EF006B3552 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 521320431F5D08EF006B3552 /* MapKit.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -57,6 +59,8 @@
 		4CDC04FD1F5BC9E00066BED7 /* Ojo_Metropolitano_1_0UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Ojo_Metropolitano_1_0UITests.swift; sourceTree = "<group>"; };
 		4CDC04FF1F5BC9E00066BED7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		4CDC050B1F5BCC8A0066BED7 /* LoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		5205703F1F5E1E37003B9A7E /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		521320431F5D08EF006B3552 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -64,6 +68,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				520570401F5E1E37003B9A7E /* CoreLocation.framework in Frameworks */,
+				521320441F5D08EF006B3552 /* MapKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -91,6 +97,7 @@
 				4CDC04F11F5BC9E00066BED7 /* Ojo-Metropolitano-1.0Tests */,
 				4CDC04FC1F5BC9E00066BED7 /* Ojo-Metropolitano-1.0UITests */,
 				4CDC04D91F5BC9E00066BED7 /* Products */,
+				521320421F5D08EF006B3552 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -138,6 +145,15 @@
 				4CDC04FF1F5BC9E00066BED7 /* Info.plist */,
 			);
 			path = "Ojo-Metropolitano-1.0UITests";
+			sourceTree = "<group>";
+		};
+		521320421F5D08EF006B3552 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				5205703F1F5E1E37003B9A7E /* CoreLocation.framework */,
+				521320431F5D08EF006B3552 /* MapKit.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -210,6 +226,11 @@
 						CreatedOnToolsVersion = 8.2.1;
 						DevelopmentTeam = 3SX4P376UZ;
 						ProvisioningStyle = Automatic;
+						SystemCapabilities = {
+							com.apple.Maps.iOS = {
+								enabled = 1;
+							};
+						};
 					};
 					4CDC04ED1F5BC9E00066BED7 = {
 						CreatedOnToolsVersion = 8.2.1;
