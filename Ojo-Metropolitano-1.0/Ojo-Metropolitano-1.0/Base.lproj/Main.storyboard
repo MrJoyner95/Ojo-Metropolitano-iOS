@@ -222,7 +222,8 @@
                                             <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                         </state>
                                         <connections>
-                                            <segue destination="49e-Tb-3d3" kind="show" identifier="Segue_Login" id="gPj-3M-Spy"/>
+                                            <action selector="Boton_IniciarSesion:" destination="AHh-4S-xSv" eventType="touchUpInside" id="nua-2C-8D2"/>
+                                            <segue destination="49e-Tb-3d3" kind="show" identifier="Segue_Login-Inicio" id="gPj-3M-Spy"/>
                                         </connections>
                                     </button>
                                 </subviews>
@@ -276,6 +277,7 @@
         <scene sceneID="yl2-sM-qoP">
             <objects>
                 <tabBarController id="49e-Tb-3d3" sceneMemberID="viewController">
+                    <navigationItem key="navigationItem" id="RBh-Zk-daC"/>
                     <nil key="simulatedBottomBarMetrics"/>
                     <tabBar key="tabBar" contentMode="scaleToFill" id="W28-zg-YXA">
                         <rect key="frame" x="0.0" y="975" width="768" height="49"/>
