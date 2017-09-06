@@ -131,6 +131,7 @@ class LoginViewController: UIViewController {
                     
                         // Separa datos del usuario:
                         let datosUsuarioArray = datosUsuario.components(separatedBy: " ~ ")
+                        
                     
                         // Asigna datos del usuario a variables globales:
                         Usuario_nombreUsuario = nombreUsuario;
@@ -140,6 +141,11 @@ class LoginViewController: UIViewController {
                         Usuario_nombres       = datosUsuarioArray[2]
                         Usuario_apellidoP     = datosUsuarioArray[3]
                         Usuario_apellidoM     = datosUsuarioArray[4]
+                        
+                        
+                        // Quitando espacios de variables importantes:          Es una extension hasta abajo
+                        Usuario_id = Usuario_id.removingWhitespaces()
+                        Usuario_correo = Usuario_correo.removingWhitespaces()
                         
                         
                         print("Nombre de usuario: " + Usuario_nombreUsuario)
@@ -174,6 +180,33 @@ class LoginViewController: UIViewController {
             taskINISES.resume()
         }
     }
+    
+    
+
+    /*
+    func QuitarEspaciosPRUEBA()
+    {
+        var stringLIMPIO: String = "hola A todos"
+        stringLIMPIO = stringLIMPIO.removingWhitespaces()
+        print("QuitarEspaciosPRUEBA() = " + stringLIMPIO)
+    }
+    */
+    
+    
+    
+    
 
 
 }
+
+
+
+
+
+extension String {
+    func removingWhitespaces() -> String {
+        return components(separatedBy: .whitespaces).joined()
+    }
+}
+
+
