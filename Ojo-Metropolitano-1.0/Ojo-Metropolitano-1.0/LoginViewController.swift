@@ -69,8 +69,8 @@ class LoginViewController: UIViewController {
         var datosUsuario = ""
         
         // Formando la url:
-        //let script = "http://siliconbear.mx/flumina/INISES.php?"                    //URL GLOBAL
-        let script = "http://192.168.1.188/flumina/INISES.php?"                               //URL LOCAL
+        let script = "http://siliconbear.mx/flumina/INISES.php?"                    //URL GLOBAL
+        //let script = "http://192.168.1.188/flumina/INISES.php?"                               //URL LOCAL
         let nomusu = "nomusu=" + nombreUsuario
         let cont   = "&contra=" + contra
         let ubica  = "&ubiact=20.6646888,-103.3314888"
@@ -142,7 +142,6 @@ class LoginViewController: UIViewController {
                         Usuario_apellidoP     = datosUsuarioArray[3]
                         Usuario_apellidoM     = datosUsuarioArray[4]
                         
-                        
                         // Quitando espacios de variables importantes:          Es una extension hasta abajo
                         Usuario_id = Usuario_id.removingWhitespaces()
                         Usuario_correo = Usuario_correo.removingWhitespaces()
@@ -155,7 +154,9 @@ class LoginViewController: UIViewController {
                         print("Nombres:           " + Usuario_nombres)
                         print("Apellido paterno:  " + Usuario_apellidoP)
                         print("Apellido materno:  " + Usuario_apellidoM)
-                    
+                        
+                
+                        
                         //******************************** EJECUTAR SEGUE AQUI ********************************
                         // Ejecuta Segue
                         /////////////self.performSegue(withIdentifier: "Segue_Login-Inicio", sender: self)
