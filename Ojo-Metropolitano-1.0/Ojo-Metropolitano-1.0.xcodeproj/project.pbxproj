@@ -22,6 +22,22 @@
 		4CDC050C1F5BCC8A0066BED7 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CDC050B1F5BCC8A0066BED7 /* LoginViewController.swift */; };
 		520570401F5E1E37003B9A7E /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5205703F1F5E1E37003B9A7E /* CoreLocation.framework */; };
 		521320441F5D08EF006B3552 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 521320431F5D08EF006B3552 /* MapKit.framework */; };
+		5241EAF31F5E575D00CAC0B2 /* Icon_TheftProtection_Dark.png in Resources */ = {isa = PBXBuildFile; fileRef = 5241EAF21F5E575D00CAC0B2 /* Icon_TheftProtection_Dark.png */; };
+		5241EAF71F5E5A1A00CAC0B2 /* RoundLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5241EAF61F5E5A1A00CAC0B2 /* RoundLabel.swift */; };
+		528264A21F5F438B00D92606 /* PinAnnotation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 528264A11F5F438B00D92606 /* PinAnnotation.swift */; };
+		528264A51F5F4DAB00D92606 /* RoundBTN.swift in Sources */ = {isa = PBXBuildFile; fileRef = 528264A41F5F4DAB00D92606 /* RoundBTN.swift */; };
+		528264B11F5F737F00D92606 /* CustomCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 528264B01F5F737F00D92606 /* CustomCell.swift */; };
+		528264CE1F5F84FB00D92606 /* rostro3.png in Resources */ = {isa = PBXBuildFile; fileRef = 528264CA1F5F84FB00D92606 /* rostro3.png */; };
+		528264CF1F5F84FB00D92606 /* rostro1.png in Resources */ = {isa = PBXBuildFile; fileRef = 528264CB1F5F84FB00D92606 /* rostro1.png */; };
+		528264D01F5F84FB00D92606 /* rostro2.png in Resources */ = {isa = PBXBuildFile; fileRef = 528264CC1F5F84FB00D92606 /* rostro2.png */; };
+		528264D11F5F84FB00D92606 /* rostro4.png in Resources */ = {isa = PBXBuildFile; fileRef = 528264CD1F5F84FB00D92606 /* rostro4.png */; };
+		528264D51F5F888A00D92606 /* RoundText.swift in Sources */ = {isa = PBXBuildFile; fileRef = 528264D41F5F888A00D92606 /* RoundText.swift */; };
+		52C36B841F5FBDDA005F3C57 /* GrupsCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52C36B831F5FBDDA005F3C57 /* GrupsCollectionViewCell.swift */; };
+		52C36B8B1F5FC552005F3C57 /* grupo2.png in Resources */ = {isa = PBXBuildFile; fileRef = 52C36B861F5FC552005F3C57 /* grupo2.png */; };
+		52C36B8C1F5FC552005F3C57 /* grupo3.png in Resources */ = {isa = PBXBuildFile; fileRef = 52C36B871F5FC552005F3C57 /* grupo3.png */; };
+		52C36B8D1F5FC552005F3C57 /* grupo4.png in Resources */ = {isa = PBXBuildFile; fileRef = 52C36B881F5FC552005F3C57 /* grupo4.png */; };
+		52C36B8E1F5FC552005F3C57 /* grupo5.png in Resources */ = {isa = PBXBuildFile; fileRef = 52C36B891F5FC552005F3C57 /* grupo5.png */; };
+		52C36B901F5FC987005F3C57 /* grupo1.png in Resources */ = {isa = PBXBuildFile; fileRef = 52C36B8F1F5FC987005F3C57 /* grupo1.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -63,6 +79,22 @@
 		4CDC050B1F5BCC8A0066BED7 /* LoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 		5205703F1F5E1E37003B9A7E /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
 		521320431F5D08EF006B3552 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		5241EAF21F5E575D00CAC0B2 /* Icon_TheftProtection_Dark.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Icon_TheftProtection_Dark.png; sourceTree = "<group>"; };
+		5241EAF61F5E5A1A00CAC0B2 /* RoundLabel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RoundLabel.swift; sourceTree = "<group>"; };
+		528264A11F5F438B00D92606 /* PinAnnotation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PinAnnotation.swift; sourceTree = "<group>"; };
+		528264A41F5F4DAB00D92606 /* RoundBTN.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RoundBTN.swift; sourceTree = "<group>"; };
+		528264B01F5F737F00D92606 /* CustomCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomCell.swift; sourceTree = "<group>"; };
+		528264CA1F5F84FB00D92606 /* rostro3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = rostro3.png; sourceTree = "<group>"; };
+		528264CB1F5F84FB00D92606 /* rostro1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = rostro1.png; sourceTree = "<group>"; };
+		528264CC1F5F84FB00D92606 /* rostro2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = rostro2.png; sourceTree = "<group>"; };
+		528264CD1F5F84FB00D92606 /* rostro4.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = rostro4.png; sourceTree = "<group>"; };
+		528264D41F5F888A00D92606 /* RoundText.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RoundText.swift; sourceTree = "<group>"; };
+		52C36B831F5FBDDA005F3C57 /* GrupsCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GrupsCollectionViewCell.swift; sourceTree = "<group>"; };
+		52C36B861F5FC552005F3C57 /* grupo2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = grupo2.png; sourceTree = "<group>"; };
+		52C36B871F5FC552005F3C57 /* grupo3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = grupo3.png; sourceTree = "<group>"; };
+		52C36B881F5FC552005F3C57 /* grupo4.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = grupo4.png; sourceTree = "<group>"; };
+		52C36B891F5FC552005F3C57 /* grupo5.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = grupo5.png; sourceTree = "<group>"; };
+		52C36B8F1F5FC987005F3C57 /* grupo1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = grupo1.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -96,6 +128,7 @@
 			isa = PBXGroup;
 			children = (
 				4CDC04DA1F5BC9E00066BED7 /* Ojo-Metropolitano-1.0 */,
+				5241EAF41F5E577C00CAC0B2 /* Recursos */,
 				4CDC04F11F5BC9E00066BED7 /* Ojo-Metropolitano-1.0Tests */,
 				4CDC04FC1F5BC9E00066BED7 /* Ojo-Metropolitano-1.0UITests */,
 				4CDC04D91F5BC9E00066BED7 /* Products */,
@@ -118,12 +151,18 @@
 			children = (
 				4CDC04DB1F5BC9E00066BED7 /* AppDelegate.swift */,
 				4CDC04E11F5BC9E00066BED7 /* Main.storyboard */,
+				52C36B831F5FBDDA005F3C57 /* GrupsCollectionViewCell.swift */,
+				528264B01F5F737F00D92606 /* CustomCell.swift */,
 				4CCB076A1F5BE76400D62489 /* InicioViewController.swift */,
 				4CCB076C1F5BE77D00D62489 /* MiCuentaViewController.swift */,
 				4CCB076E1F5BE79D00D62489 /* MisContactosViewController.swift */,
 				4CCB07701F5BE7B500D62489 /* MisLugaresViewController.swift */,
 				4CCB07721F5BE7C700D62489 /* AgentePoliciacoViewController.swift */,
 				4CDC050B1F5BCC8A0066BED7 /* LoginViewController.swift */,
+				5241EAF61F5E5A1A00CAC0B2 /* RoundLabel.swift */,
+				528264A41F5F4DAB00D92606 /* RoundBTN.swift */,
+				528264D41F5F888A00D92606 /* RoundText.swift */,
+				528264A11F5F438B00D92606 /* PinAnnotation.swift */,
 				4CDC04E41F5BC9E00066BED7 /* Assets.xcassets */,
 				4CDC04E61F5BC9E00066BED7 /* LaunchScreen.storyboard */,
 				4CDC04E91F5BC9E00066BED7 /* Info.plist */,
@@ -157,6 +196,24 @@
 				521320431F5D08EF006B3552 /* MapKit.framework */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		5241EAF41F5E577C00CAC0B2 /* Recursos */ = {
+			isa = PBXGroup;
+			children = (
+				528264CA1F5F84FB00D92606 /* rostro3.png */,
+				528264CB1F5F84FB00D92606 /* rostro1.png */,
+				528264CC1F5F84FB00D92606 /* rostro2.png */,
+				528264CD1F5F84FB00D92606 /* rostro4.png */,
+				5241EAF21F5E575D00CAC0B2 /* Icon_TheftProtection_Dark.png */,
+				52C36B8F1F5FC987005F3C57 /* grupo1.png */,
+				52C36B861F5FC552005F3C57 /* grupo2.png */,
+				52C36B871F5FC552005F3C57 /* grupo3.png */,
+				52C36B881F5FC552005F3C57 /* grupo4.png */,
+				52C36B891F5FC552005F3C57 /* grupo5.png */,
+			);
+			name = Recursos;
+			path = "Ojo-Metropolitano-1.0";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -233,6 +290,9 @@
 							com.apple.Maps.iOS = {
 								enabled = 1;
 							};
+							com.apple.Push = {
+								enabled = 0;
+							};
 						};
 					};
 					4CDC04ED1F5BC9E00066BED7 = {
@@ -274,7 +334,17 @@
 			files = (
 				4CDC04E81F5BC9E00066BED7 /* LaunchScreen.storyboard in Resources */,
 				4CDC04E51F5BC9E00066BED7 /* Assets.xcassets in Resources */,
+				52C36B901F5FC987005F3C57 /* grupo1.png in Resources */,
+				528264CF1F5F84FB00D92606 /* rostro1.png in Resources */,
+				52C36B8E1F5FC552005F3C57 /* grupo5.png in Resources */,
+				52C36B8B1F5FC552005F3C57 /* grupo2.png in Resources */,
+				528264D11F5F84FB00D92606 /* rostro4.png in Resources */,
+				52C36B8C1F5FC552005F3C57 /* grupo3.png in Resources */,
+				528264CE1F5F84FB00D92606 /* rostro3.png in Resources */,
+				528264D01F5F84FB00D92606 /* rostro2.png in Resources */,
 				4CDC04E31F5BC9E00066BED7 /* Main.storyboard in Resources */,
+				52C36B8D1F5FC552005F3C57 /* grupo4.png in Resources */,
+				5241EAF31F5E575D00CAC0B2 /* Icon_TheftProtection_Dark.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -301,12 +371,21 @@
 			files = (
 				4CDC050C1F5BCC8A0066BED7 /* LoginViewController.swift in Sources */,
 				4CCB076D1F5BE77D00D62489 /* MiCuentaViewController.swift in Sources */,
+				528264B11F5F737F00D92606 /* CustomCell.swift in Sources */,
+				528264D51F5F888A00D92606 /* RoundText.swift in Sources */,
 				4CCB07731F5BE7C700D62489 /* AgentePoliciacoViewController.swift in Sources */,
+<<<<<<< HEAD
 				4C1360221F5FD114008E5776 /* CustomCollectionViewCell.swift in Sources */,
+=======
+				5241EAF71F5E5A1A00CAC0B2 /* RoundLabel.swift in Sources */,
+>>>>>>> 7200c00f60c08f791aff21990e93803d885e020a
 				4CDC04DC1F5BC9E00066BED7 /* AppDelegate.swift in Sources */,
 				4CCB07711F5BE7B500D62489 /* MisLugaresViewController.swift in Sources */,
 				4CCB076B1F5BE76400D62489 /* InicioViewController.swift in Sources */,
+				528264A21F5F438B00D92606 /* PinAnnotation.swift in Sources */,
+				52C36B841F5FBDDA005F3C57 /* GrupsCollectionViewCell.swift in Sources */,
 				4CCB076F1F5BE79D00D62489 /* MisContactosViewController.swift in Sources */,
+				528264A51F5F4DAB00D92606 /* RoundBTN.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
