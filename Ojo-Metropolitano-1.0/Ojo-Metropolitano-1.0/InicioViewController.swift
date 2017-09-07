@@ -26,7 +26,10 @@ class InicioViewController: UIViewController, CLLocationManagerDelegate{
         
         mapView.setRegion(region, animated: true)
         
+        let pin = PinAnnotation(title: "Usted está aquí", subtitle: "Verifique la Zona !", coordinate: userLocation)
+        
         self.mapView.showsUserLocation = true
+        self.mapView.addAnnotation(pin)
     }
     
     
@@ -37,22 +40,22 @@ class InicioViewController: UIViewController, CLLocationManagerDelegate{
         locationManager.desiredAccuracy = kCLLocationAccuracyBest
         locationManager.requestWhenInUseAuthorization()
         locationManager.startUpdatingLocation()
-
+        
         //mapView.setRegion(MKCoordinateRegionMakeWithDistance(CLLocationCoordinate2D (latitude: 20.695258, longitude: -103.348564),1500, 1500 ),animated: true)
     }
-
+    
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
     }
-
+    
     /*
-    //++++++++++++++++++++++++ Cambia color de tab bar ++++++++++++++++++++++++
-    override func viewWillAppear(_ animated: Bool) {
-        super.viewWillAppear(animated)
-        self.tabBarController?.tabBar.tintColor = UIColor.red
-    }
-    //------------------------ Cambia color de tab bar ------------------------
-    */
- 
+     //++++++++++++++++++++++++ Cambia color de tab bar ++++++++++++++++++++++++
+     override func viewWillAppear(_ animated: Bool) {
+     super.viewWillAppear(animated)
+     self.tabBarController?.tabBar.tintColor = UIColor.red
+     }
+     //------------------------ Cambia color de tab bar ------------------------
+     */
+    
 }
