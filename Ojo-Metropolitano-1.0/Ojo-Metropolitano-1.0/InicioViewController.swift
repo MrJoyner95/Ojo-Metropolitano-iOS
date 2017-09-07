@@ -26,10 +26,7 @@ class InicioViewController: UIViewController, CLLocationManagerDelegate{
         
         mapView.setRegion(region, animated: true)
         
-        let pin = PinAnnotation(title: "Usted está aquí", subtitle: "Verifique la Zona !", coordinate: userLocation)
-        
         self.mapView.showsUserLocation = true
-        self.mapView.addAnnotation(pin)
     }
     
     

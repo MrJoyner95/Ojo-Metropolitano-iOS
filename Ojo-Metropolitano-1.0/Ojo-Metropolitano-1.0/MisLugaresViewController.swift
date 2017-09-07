@@ -167,12 +167,10 @@ class MisLugaresViewController: UIViewController, UICollectionViewDelegate, UICo
     
     @IBAction func buttonEliminar(_ sender: Any) {
         
-        //EliminarLugar()
+        EliminarLugar()
         
         MisLugaresMarcados.remove(at: IndiceLugarSeleccionado)
         myCollectionView.reloadData()
-        //CargarMisLugaresMarcados_Mapa()
-        
         labelLugarSeleccionado.isHidden = true
         buttonEliminarOutlet.isHidden = true
     }
