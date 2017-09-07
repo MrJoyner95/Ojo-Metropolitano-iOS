@@ -210,14 +210,46 @@
                                 <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <segmentedControl opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="top" segmentControlStyle="plain" selectedSegmentIndex="0" translatesAutoresizingMaskIntoConstraints="NO" id="xyT-AD-QQC">
+                                <rect key="frame" x="0.0" y="60" width="375" height="29"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <segments>
+                                    <segment title="Boton de panico"/>
+                                    <segment title="Denuncias"/>
+                                </segments>
+                                <color key="tintColor" red="0.40000000600000002" green="0.40000000600000002" blue="0.40000000600000002" alpha="1" colorSpace="calibratedRGB"/>
+                                <connections>
+                                    <action selector="mySegmentedControlIndexChanged:" destination="RxF-9R-I1B" eventType="valueChanged" id="wI8-xo-AKO"/>
+                                </connections>
+                            </segmentedControl>
+                            <button hidden="YES" opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="p2X-5A-31r">
+                                <rect key="frame" x="127" y="207" width="130" height="66"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.20000000300000001" green="0.20000000300000001" blue="0.20000000300000001" alpha="1" colorSpace="calibratedRGB"/>
+                                <state key="normal" title="Denuncias"/>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="3Pg-AF-DKr">
+                                <rect key="frame" x="127" y="423" width="130" height="66"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.20000000300000001" green="0.20000000300000001" blue="0.20000000300000001" alpha="1" colorSpace="calibratedRGB"/>
+                                <state key="normal" title="Boton de panico"/>
+                                <connections>
+                                    <action selector="BotonDePanicoPresionado:" destination="RxF-9R-I1B" eventType="touchUpInside" id="cbe-rU-vd9"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
                     <tabBarItem key="tabBarItem" title="Agente Policiaco" image="icono-agente-policiaco" id="1k7-pT-nwb"/>
+                    <connections>
+                        <outlet property="BotonDePanico" destination="3Pg-AF-DKr" id="ZYs-3z-YbD"/>
+                        <outlet property="Denuncias" destination="p2X-5A-31r" id="xLm-ev-wXg"/>
+                        <outlet property="mySegmentedControl" destination="xyT-AD-QQC" id="KM9-Nc-qDQ"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="8Zp-rv-ffd" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="698" y="1551"/>
+            <point key="canvasLocation" x="696.79999999999995" y="1549.4752623688157"/>
         </scene>
         <!--Login View Controller-->
         <scene sceneID="7Ar-HH-DwX">

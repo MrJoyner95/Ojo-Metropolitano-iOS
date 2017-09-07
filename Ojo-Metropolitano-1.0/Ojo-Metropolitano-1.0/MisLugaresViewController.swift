@@ -162,7 +162,7 @@ class MisLugaresViewController: UIViewController, UICollectionViewDelegate, UICo
         
         
     }//funcion ObtenerMisLugares()
-        
+    
     @IBOutlet weak var labelLugarSeleccionado: UILabel!
     
     @IBAction func buttonEliminar(_ sender: Any) {
@@ -361,7 +361,18 @@ class MisLugaresViewController: UIViewController, UICollectionViewDelegate, UICo
     }
     //-------------------------------- Funcion para retrasar segundos --------------------------------
     
-        
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
     
 
 }
