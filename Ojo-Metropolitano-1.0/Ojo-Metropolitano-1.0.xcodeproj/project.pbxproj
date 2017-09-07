@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4C1360221F5FD114008E5776 /* CustomCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C1360211F5FD114008E5776 /* CustomCollectionViewCell.swift */; };
 		4CCB076B1F5BE76400D62489 /* InicioViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CCB076A1F5BE76400D62489 /* InicioViewController.swift */; };
 		4CCB076D1F5BE77D00D62489 /* MiCuentaViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CCB076C1F5BE77D00D62489 /* MiCuentaViewController.swift */; };
 		4CCB076F1F5BE79D00D62489 /* MisContactosViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CCB076E1F5BE79D00D62489 /* MisContactosViewController.swift */; };
@@ -41,6 +42,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		4C1360211F5FD114008E5776 /* CustomCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomCollectionViewCell.swift; sourceTree = "<group>"; };
 		4CCB076A1F5BE76400D62489 /* InicioViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InicioViewController.swift; sourceTree = "<group>"; };
 		4CCB076C1F5BE77D00D62489 /* MiCuentaViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MiCuentaViewController.swift; sourceTree = "<group>"; };
 		4CCB076E1F5BE79D00D62489 /* MisContactosViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MisContactosViewController.swift; sourceTree = "<group>"; };
@@ -125,6 +127,7 @@
 				4CDC04E41F5BC9E00066BED7 /* Assets.xcassets */,
 				4CDC04E61F5BC9E00066BED7 /* LaunchScreen.storyboard */,
 				4CDC04E91F5BC9E00066BED7 /* Info.plist */,
+				4C1360211F5FD114008E5776 /* CustomCollectionViewCell.swift */,
 			);
 			path = "Ojo-Metropolitano-1.0";
 			sourceTree = "<group>";
@@ -299,6 +302,7 @@
 				4CDC050C1F5BCC8A0066BED7 /* LoginViewController.swift in Sources */,
 				4CCB076D1F5BE77D00D62489 /* MiCuentaViewController.swift in Sources */,
 				4CCB07731F5BE7C700D62489 /* AgentePoliciacoViewController.swift in Sources */,
+				4C1360221F5FD114008E5776 /* CustomCollectionViewCell.swift in Sources */,
 				4CDC04DC1F5BC9E00066BED7 /* AppDelegate.swift in Sources */,
 				4CCB07711F5BE7B500D62489 /* MisLugaresViewController.swift in Sources */,
 				4CCB076B1F5BE76400D62489 /* InicioViewController.swift in Sources */,

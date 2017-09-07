@@ -22,10 +22,11 @@ var Usuario_nombres = ""
 var Usuario_apellidoP = ""
 var Usuario_apellidoM = ""
 
+var Usuario_celular = "0000"
+
 
 class LoginViewController: UIViewController {
 
-    
     @IBOutlet weak var textField_NombreUsuario: UITextField!
     @IBOutlet weak var textField_Contra: UITextField!
     @IBOutlet weak var button_IniciarSesion: UIButton!
