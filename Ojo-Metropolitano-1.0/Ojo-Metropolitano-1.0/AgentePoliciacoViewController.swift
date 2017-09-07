@@ -13,6 +13,12 @@ import CoreLocation
 class AgentePoliciacoViewController: UIViewController, CLLocationManagerDelegate {
     
     
+    @IBOutlet weak var BotonLevantarDenuncia: UIButton!
+    @IBOutlet weak var BotonMisDenuncias: UIButton!
+    @IBOutlet weak var BotonSeguimientoDenuncia: UIButton!
+    @IBOutlet weak var BotonCancelarDenuncia: UIButton!
+    
+    
     //++++++++++++++++++++++++++++++++ Ubicar usuario ++++++++++++++++++++++++++++++++
     
     var PosicionUsuario_CoordenadaX:Double = 0
@@ -40,6 +46,16 @@ class AgentePoliciacoViewController: UIViewController, CLLocationManagerDelegate
 
         // Do any additional setup after loading the view.
         
+        // Redondea botones de Denuncias:
+        BotonLevantarDenuncia.layer.cornerRadius = 15
+        BotonMisDenuncias.layer.cornerRadius = 15
+        BotonSeguimientoDenuncia.layer.cornerRadius = 15
+        BotonCancelarDenuncia.layer.cornerRadius = 15
+        
+        // Redondea esquinas de UIView:
+        ViewDenuncias.roundCorners(corners: [.topRight, .bottomLeft], radius: 30)
+        ViewBotonDePanico.roundCorners(corners: [.topRight, .bottomLeft], radius: 30)
+        
         
         //++++++++++++++++++++++++++++++++ Ubicar usuario ++++++++++++++++++++++++++++++++
         
@@ -49,6 +65,7 @@ class AgentePoliciacoViewController: UIViewController, CLLocationManagerDelegate
         locationManager.startUpdatingLocation()
         
         //-------------------------------- Ubicar usuario --------------------------------
+        
     }
 
     override func didReceiveMemoryWarning() {
@@ -59,8 +76,11 @@ class AgentePoliciacoViewController: UIViewController, CLLocationManagerDelegate
 
     @IBOutlet weak var mySegmentedControl: UISegmentedControl!
     
-    @IBOutlet weak var Denuncias: UIButton!
     @IBOutlet weak var BotonDePanico: UIButton!
+    
+    
+    @IBOutlet weak var ViewDenuncias: UIView!
+    @IBOutlet weak var ViewBotonDePanico: UIView!
     
     
     
@@ -69,13 +89,21 @@ class AgentePoliciacoViewController: UIViewController, CLLocationManagerDelegate
         switch mySegmentedControl.selectedSegmentIndex
         {
         case 0:
+            /*
             print("Panico");
             Denuncias.isHidden = true;
             BotonDePanico.isHidden = false;
+            */
+            ViewBotonDePanico.isHidden = false;
+            ViewDenuncias.isHidden = true;
         case 1:
+            /*
             print("Denuncias");
             Denuncias.isHidden = false;
             BotonDePanico.isHidden = true;
+            */
+            ViewBotonDePanico.isHidden = true;
+            ViewDenuncias.isHidden = false;
         default:
             break
         }
@@ -166,7 +194,30 @@ class AgentePoliciacoViewController: UIViewController, CLLocationManagerDelegate
     
     
     
+    
+    
+    
+    
+    
+    
 
 }
+
+
+
+//++++++++++++++++++++++++++++++++ Redondea esquinas de UIView ++++++++++++++++++++++++++++++++
+
+extension UIView {
+    func roundCorners(corners:UIRectCorner, radius: CGFloat) {
+        let path = UIBezierPath(roundedRect: self.bounds, byRoundingCorners: corners, cornerRadii: CGSize(width: radius, height: radius))
+        let mask = CAShapeLayer()
+        mask.path = path.cgPath
+        self.layer.mask = mask
+    }
+}
+
+//-------------------------------- Redondea esquinas de UIView --------------------------------
+
+
 
 
